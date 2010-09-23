@@ -1,0 +1,170 @@
+[SIZE="2"][B][FONT="Tahoma"][B][CENTER]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!.................. Brought to you by PHP KingDom ([url]www.phpkd.net[/url]) ..................!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[/CENTER][/B][/FONT][/B][/SIZE]
+
+
+
+[B]Name:[/B] PHPKD - Avatar Title in Posts
+[B]Version:[/B] 4.0.100
+
+[B]Description:[/B] This product display avatar's title when mouse moves over user's avatar in posts (rather than username).
+
+
+[B]Compatible with:[/B] All 4.0.x vBulletin versions.
+
+
+[U][B]Requirements:[/B][/U]
+[LIST]
+     [*]vBulletin version 4.0.x
+[/LIST]
+
+
+[U][B]Helpful links:[/B][/U]
+[LIST]
+     [*][url="http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=bug"]Bug Reports[/url]
+     [*][url="http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=feature"]Feature Requests[/url]
+[/LIST]
+
+
+[U][B]Features:[/B][/U]
+[LIST]
+     [*][U][B]General Features:-[/B][/U]
+	[LIST]
+	     [*]Fully Phrased.
+	     [*]Fully Supported.
+	     [*]Accurate Processing.
+	     [*]Professionally Coded.
+	     [*]Detailed Documentation.
+	     [*]Requires NO manual edit.
+	     [*]Zero Additional Queries.
+	     [*]Does NOT break any default vBulletin functionality -Fully vBulletin Compatible-.
+	[/LIST]
+     [*][U][B]Specific Features:-[/B][/U]
+	[LIST]
+	     [*]Ability to enable/disable the product globally from settings.
+	[/LIST]
+[/LIST]
+
+
+[U][B]Installation Procedure:[/B][/U]
+[LIST=1]
+     [*]Import the product's XML file "product-phpkd_vbatp.xml" from AdminCP.
+     [*]You're Done :).
+[/LIST]
+
+
+[U][B]Upgrade Procedure:[/B][/U]
+[LIST=1]
+     [*]Same as "Installation Procedure", but "Allow Overwrite" for product import.
+[/LIST]
+
+
+[U][B]Controls:[/B][/U]
+[LIST]
+     [*][B][U]Settings:[/U][/B]
+	vBulletin AdminCP » Settings » Options » User Picture Options » [B]Display Avatar's Title in Posts[/B]
+[/LIST]
+
+
+[U][B]License:[/B][/U]
+[URL="http://info.phpkd.net/en/license/free/"]Read Here: http://info.phpkd.net/en/license/free/[/URL]
+--------------- --------------- --------------- ---------------
+Creative Commons - Attribution-Noncommercial-Share Alike 3.0
+[url]http://creativecommons.org/licenses/by-nc-sa/3.0/[/url]
+--------------- --------------- --------------- ---------------
+[LIST]
+     [*][B][U]You are free:[/U][/B]
+     [LIST]
+	[*]To Share — to copy, distribute and transmit the work
+	[*]To Remix — to adapt the work
+     [/LIST]
+
+
+     [*][B][U]Under the following conditions:[/U][/B]
+     [LIST]
+	[*][B][Attribution]:[/B] You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+	[*][B][Noncommercial]:[/B] You may not use this work for commercial purposes.
+	[*][B][Share Alike]:[/B] If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+     [/LIST]
+
+
+     [*]For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to [url="http://creativecommons.org/licenses/by-nc-sa/3.0/"]this web page[/url].
+     [*]Any of the above conditions can be waived if you get explicit permission from the copyright holder.
+     [*]Nothing in this license impairs or restricts the author's moral rights.
+[/LIST]
+--------------- --------------- --------------- ---------------
+Your fair dealing and other rights are in no way affected by the above.
+This is a human-readable summary of the Legal Code (the full license).
+[url]http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode[/url]
+--------------- --------------- --------------- ---------------
+
+
+[U][B]Help with:[/B][/U]
+[LIST]
+	[*]Translations to benefit more users.
+	[*]Suggestions & feature requests to develop this product.
+	[*]Contributing any updates, upgrades and/or any new features.
+	[*]Spreading this product. Yes, you're free to re-distribute this product as it is (See 'Free License' details).
+[/LIST]
+
+
+[U][B]Known Issues:[/B][/U]
+[LIST]
+     [*]Nothing till now!
+[/LIST]
+
+
+[U][B]Future TO-DO-LIST:[/B][/U]
+[LIST]
+     [*]Post your suggestions!
+[/LIST]
+
+
+[U][B]History:[/B][/U]
+[LIST]
+     [*][B]v1.0.0[/B] 28/07/2008 10:00 AM UTC: First 3.7.x release (private)
+     [*][B]v4.0.100[/B] 23/09/2010 08:00 AM UTC: First 4.0.x release (public)
+     [LIST=1]
+     [*]Recoded from scratch.
+     [*]No manual edits required any more.
+     [*]Fully compatible with both vB 4.0.x.
+     [/LIST]
+[/LIST]
+
+
+[U][B]Screen Shots:[/B][/U]
+[LIST]
+     [*]Available down there.
+[/LIST]
+
+
+[U][B]Technical Notes:[/B][/U]
+[LIST]
+     [*][COLOR="DimGray"]New Plugins:[/COLOR] 3
+     [*][COLOR="DimGray"]New Phrases:[/COLOR] 2
+     [*][COLOR="dimgray"]New Templates:[/COLOR] 0
+     [*][COLOR="dimgray"]Manual Template changes:[/COLOR] 0
+     [*][COLOR="dimgray"]Auto Template changes:[/COLOR] 1
+     [*][COLOR="dimgray"]New Files:[/COLOR] 0
+     [*][COLOR="dimgray"]Manual File Changes:[/COLOR] 0
+     [*][COLOR="dimgray"]New vBulletin Settings:[/COLOR] 1
+     [*][COLOR="dimgray"]New Usergroup Permissions:[/COLOR] 0
+     [*][COLOR="dimgray"]New Moderator Permissions:[/COLOR] 0
+     [*][COLOR="dimgray"]New Administrator Permissions:[/COLOR] 0
+     [*][COLOR="dimgray"]New Forum Options:[/COLOR] 0
+     [*][COLOR="dimgray"]New DB Tables:[/COLOR] 0
+     [*][COLOR="dimgray"]DB Alterations:[/COLOR] 0
+     [*][COLOR="dimgray"]New Cronjobs:[/COLOR] 0
+     --------------------------------
+     [*][COLOR="dimgray"]Installation Level:[/COLOR] V.Easy
+     [*][COLOR="dimgray"]Installation Time:[/COLOR] ~5 seconds
+[/LIST]
+
+
+[B][U]Recent Products:[/U][/B]
+[LIST]
+     [*][URL="http://go.phpkd.net/en/product/vblvb/"]PHPKD - vB Link Verifier Bot[/URL] [FONT="Impact"][COLOR="Red"][I]New ![/I][/COLOR][/FONT]
+     [*][URL="http://go.phpkd.net/en/product/vbaqr/"]PHPKD - vB Advanced Quick Reply 'Ultimate'[/URL] [FONT="Impact"][COLOR="Red"][I]New ![/I][/COLOR][/FONT]
+     [*][URL="http://go.phpkd.net/en/product/vbaqe/"]PHPKD - vB Advanced Quick Edit [ All Built-In BBCodes ][/URL]
+[/LIST]

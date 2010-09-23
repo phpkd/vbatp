@@ -1,0 +1,7 @@
+﻿Installation Procedure:
+~~~~~~~~~~~~~~~~~~~~~~~~
+     1. Import the product's XML file "product-phpkd_vbatp.xml" from AdminCP.
+     2. You're Done :).
+
+
+$Version: 4.0.100 $ - $Id: install.txt 9 2010-03-20 08:02:12Z PHPKD $
