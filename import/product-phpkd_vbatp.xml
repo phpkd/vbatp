@@ -5,9 +5,9 @@
 	<description><![CDATA[This product display avatar's title when mouse moves over user's avatar in posts (rather than username).]]></description>
 	<version><![CDATA[4.0.100]]></version>
 	<vendor><![CDATA[$Vendor: PHP KingDom $]]></vendor>
-	<author><![CDATA[$Author: PHPKD $]]></author>
-	<revision><![CDATA[$Revision: 14 $]]></revision>
-	<released><![CDATA[$Date: 2010-03-21 02:11:49 +0200 (Sun, 21 Mar 2010) $]]></released>
+	<author><![CDATA[$Author$]]></author>
+	<revision><![CDATA[$Revision$]]></revision>
+	<released><![CDATA[$Date$]]></released>
 	<url><![CDATA[http://tools.phpkd.net/en/producthelp/url/vbatp/]]></url>
 	<versioncheckurl><![CDATA[http://tools.phpkd.net/en/producthelp/version/vbatp/]]></versioncheckurl>
 	<extradetails><![CDATA[http://tools.phpkd.net/en/producthelp/info/vbatp/]]></extradetails>

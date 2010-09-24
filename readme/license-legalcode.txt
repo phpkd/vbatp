@@ -94,4 +94,4 @@ EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LI
 ================================================================================================================
 
 
-$Version: 4.0.100 $ - $Id: license-legalcode.txt 7 2010-03-19 19:28:40Z PHPKD $
+$Version: 4.0.100 $ - $Id$
