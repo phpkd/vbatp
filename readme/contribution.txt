@@ -36,8 +36,8 @@
 	     [*]Accurate Processing.
 	     [*]Professionally Coded.
 	     [*]Detailed Documentation.
-	     [*]Requires NO manual edit.
 	     [*]Zero Additional Queries.
+	     [*]Requires NO manual edits.
 	     [*]Does NOT break any default vBulletin functionality -Fully vBulletin Compatible-.
 	[/LIST]
      [*][U][B]Specific Features:-[/B][/U]
@@ -128,7 +128,7 @@ This is a human-readable summary of the Legal Code (the full license).
      [LIST=1]
      [*]Recoded from scratch.
      [*]No manual edits required any more.
-     [*]Fully compatible with both vB 4.0.x.
+     [*]Fully compatible with vBulletin 4.0.x.
      [/LIST]
 [/LIST]
 
