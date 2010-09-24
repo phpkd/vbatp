@@ -1,7 +1,16 @@
-﻿Upgrade Procedure:
-~~~~~~~~~~~~~~~~~~~~~~~~
+﻿~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+PHPKD - Avatar Title in Posts -- Upgrade Procedure:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      1. Import the product's XML file "product-phpkd_vbatp.xml" from AdminCP (ALLOW OVERWRITE).
      2. You're Done :).
 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 $Version: 4.0.100 $ - $Id$
