@@ -120,7 +120,7 @@ Future TO-DO-LIST:
 History:
 ~~~~~~~~~
      * v1.0.0 28/07/2008 10:00 AM UTC: First 3.7.x release (private)
-     * v4.0.100 23/09/2010 08:00 AM UTC: First 4.0.x release (public)
+     * v4.0.100 24/09/2010 10:00 AM UTC: First 4.0.x release (public)
 	+ Recoded from scratch.
 	+ No manual edits required any more.
 	+ Fully compatible with vBulletin 4.0.x.
