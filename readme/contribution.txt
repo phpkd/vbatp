@@ -6,7 +6,7 @@
 
 
 [B]Name:[/B] PHPKD - Avatar Title in Posts
-[B]Version:[/B] 4.0.100
+[B]Version:[/B] 4.0.101
 
 [B]Description:[/B] This product display avatar's title when mouse moves over user's avatar in posts (rather than username).
 
@@ -129,6 +129,10 @@ This is a human-readable summary of the Legal Code (the full license).
      [*]Recoded from scratch.
      [*]No manual edits required any more.
      [*]Fully compatible with vBulletin 4.0.x.
+     [/LIST]
+     [*][B]v4.0.101[/B] 28/09/2010 10:00 AM UTC: Maintenance release (public)
+     [LIST=1]
+     [*]Fixed minor bug in installation code.
      [/LIST]
 [/LIST]
 

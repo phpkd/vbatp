@@ -3,7 +3,7 @@
 <product productid="phpkd_vbatp" active="1">
 	<title><![CDATA[PHPKD - Avatar Title in Posts]]></title>
 	<description><![CDATA[This product display avatar's title when mouse moves over user's avatar in posts (rather than username).]]></description>
-	<version><![CDATA[4.0.100]]></version>
+	<version><![CDATA[4.0.101]]></version>
 	<vendor><![CDATA[$Vendor: PHP KingDom $]]></vendor>
 	<author><![CDATA[$Author$]]></author>
 	<revision><![CDATA[$Revision$]]></revision>
@@ -16,16 +16,15 @@
 	</dependencies>
 	<codes>
 		<code version="*">
-			<installcode><![CDATA[// look if we've already old versions of this product installed
-$existingprods = $vbulletin->db->query_first("SELECT * FROM " . TABLE_PREFIX . "product WHERE productid IN('dispavatartitposts')");
-if ($vbulletin->db->num_rows($existingprods))
+			<installcode><![CDATA[$vbulletin->db->hide_errors();
+
+// look if we've already old versions of this product installed
+$existingprod = $vbulletin->db->query_first("SELECT * FROM " . TABLE_PREFIX . "product WHERE productid = 'dispavatartitposts'");
+if ($existingprod['productid'])
 {
-	while ($existingprod = $vbulletin->db->fetch_array($existingprods))
-	{
-		print_dots_start("Un-Installing old versions: \"" . $existingprod['title'] . "\"<br />Version: " . $existingprod['version'] . ", ID: " . $existingprod['productid'] . ".<br />Please Wait...", ':', 'phpkd_vbaddon_uninstall_old_info');
-		delete_product($existingprod['productid']);
-		print_dots_stop();
-	}
+	print_dots_start("Un-Installing old versions: \"" . $existingprod['title'] . "\"<br />Version: " . $existingprod['version'] . ", ID: " . $existingprod['productid'] . ".<br />Please Wait...", ':', 'phpkd_vbaddon_uninstall_old_info');
+	delete_product($existingprod['productid']);
+	print_dots_stop();
 }
 
 
@@ -33,7 +32,6 @@ if ($vbulletin->db->num_rows($existingprods))
 // ## Debug Stuff: Begin                                               ##
 // ######################################################################
 
-$vbulletin->db->hide_errors();
 // Import debug data in appropriate field
 $phpkdinfo = $info;
 unset($phpkdinfo['description']);
@@ -76,16 +74,18 @@ else
 
 print_dots_start("Installing: \"" . $phpkdinfo['title'] . "\"<br />Version: " . $phpkdinfo['version'] . ", Revision: " . $phpkdinfo['revision'] . ", Released: " . $phpkdinfo['released'] . ".<br />Thanks for choosing PHP KingDom's Products. If you need any help or wish to try any other products we have, just give us a visit at <a href=\"http://www.phpkd.net\" target=\"_blank\">www.phpkd.net</a>. You are always welcomed.<br />Please Wait...", ':', 'phpkd_vbaddon_install_info');
 print_dots_stop();
-$vbulletin->db->show_errors();
 
 // ######################################################################
 // ## Debug Stuff: End                                                 ##
-// ######################################################################]]></installcode>
-			<uninstallcode><![CDATA[// ######################################################################
+// ######################################################################
+
+$vbulletin->db->show_errors();]]></installcode>
+			<uninstallcode><![CDATA[$vbulletin->db->hide_errors();
+
+// ######################################################################
 // ## Debug Stuff: Begin                                               ##
 // ######################################################################
 
-$vbulletin->db->hide_errors();
 if ($vbulletin->options['phpkd_free40_data'])
 {
 	$holder = unserialize($vbulletin->options['phpkd_free40_data']);
@@ -120,11 +120,12 @@ if ($vbulletin->options['phpkd_free40_data'])
 		$vbulletin->db->query_write("DELETE FROM " . TABLE_PREFIX . "setting WHERE varname = 'phpkd_free40_data'");
 	}
 }
-$vbulletin->db->show_errors();
 
 // ######################################################################
 // ## Debug Stuff: End                                                 ##
-// ######################################################################]]></uninstallcode>
+// ######################################################################
+
+$vbulletin->db->show_errors();]]></uninstallcode>
 		</code>
 	</codes>
 	<templates>
